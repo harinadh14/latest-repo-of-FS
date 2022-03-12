@@ -1,0 +1,28 @@
+----> febinacci series in ranged function:   <-----
+def febinnaci_series():
+    jyo=int(input("enter value to how much u need : "))
+    a=int(input("enter starting value"))
+    b=a+1
+    c=a+b
+    print(a)
+    while (a<=jyo):
+        c=a+c
+        a=c
+        c=b
+        b=a
+        print(c)
+
+
+---> this is my first code  <-----
+
+def febinnaci_series():
+    a=0
+    b=1
+    c=a+b
+    print(a)
+    while (a<=10):
+        c=a+c
+        a=c
+        c=b
+        b=a
+        print(c)
