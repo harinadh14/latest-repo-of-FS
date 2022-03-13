@@ -1,4 +1,4 @@
-----> febinacci series in ranged function:   <-----
+----> fibonacci series in ranged function:   <-----
 def febinnaci_series():
     jyo=int(input("enter value to how much u need : "))
     a=int(input("enter starting value"))
@@ -15,7 +15,7 @@ def febinnaci_series():
 
 ---> this is my first code  <-----
 
-def febinnaci_series():
+def fibonacci_series():
     a=0
     b=1
     c=a+b
